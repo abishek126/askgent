@@ -1,0 +1,1 @@
+/* Favorite functions are in components.js and persist in localStorage. */

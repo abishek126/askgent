@@ -1,0 +1,1 @@
+window.searchArticles=q=>{q=(q||"").trim().toLowerCase();if(!q)return[...SCIENCE_ARTICLES];let t=q.split(/\s+/);return SCIENCE_ARTICLES.filter(a=>t.every(x=>[a.title,a.description,a.body,a.category,a.subcategory,...a.tags].join(" ").toLowerCase().includes(x)))};
